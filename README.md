@@ -16,3 +16,7 @@ The portfolio will be organized as follows to keep the content well-structured a
 As I continue to learn and grow in data science, I will be adding new projects to this portfolio. Each project will showcase different aspects of data science that I am working on.
 
 Feel free to explore, provide feedback, and check back for new projects as I update my portfolio!
+
+
+## Contents
+- Basic Streamlit App (Automobile Database): This app 
