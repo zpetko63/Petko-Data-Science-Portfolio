@@ -19,4 +19,4 @@ Feel free to explore, provide feedback, and check back for new projects as I upd
 
 
 ## Contents
-- Basic Streamlit App (Automobile Database): This app 
+- Basic Streamlit App (Automobile Database): This streamlit app built in python lets users explore and filter the automobile database bsed on their desired criteria. The user has the ability to choose between MPG, Number of Cylinders, Horsepower, or just the unfiltered data set to narrow down results.
