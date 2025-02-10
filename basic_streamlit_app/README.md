@@ -1,3 +1,3 @@
-# This is a basic Streamlit app which reads data and has interactive widfets in Streamlit
+# This is a basic Streamlit app for an automobile database
 
-## Data includes: 
+## Data includes: Automobile Database - [Kaggle] ([url](https://www.kaggle.com/datasets/sumaya23abdul/automobile-database?resource=download))
