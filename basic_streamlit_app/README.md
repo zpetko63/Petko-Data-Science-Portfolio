@@ -3,7 +3,7 @@
 ## Data Source: Automobile Database - ([Kaggle](https://www.kaggle.com/datasets/akshaydattatraykhare/car-details-dataset))
 
 ## App Summary: 
-This app lets users explore and filter the automobile database bsed on their desired criteria. The user has the ability to choose between MPG, Number of Cylinders, Horsepower, or just the unfiltered data set to narrow down results. 
+This streamlit app built in python lets users explore and filter the automobile database bsed on their desired criteria. The user has the ability to choose between MPG, Number of Cylinders, Horsepower, or just the unfiltered data set to narrow down results. 
 
 ## App Functionality:
 - Unfiltered Data Toggle: Users can select the toggle titled "Show Unfiltered Dataframe" to choose between showing the dataframe above the filter tabs. This can be useful for comparing data.
