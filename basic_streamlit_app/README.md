@@ -11,3 +11,7 @@ This streamlit app built in python lets users explore and filter the automobile 
   - MPG Tab: This tab allows the user to select a minimum and maximum MPG value using a slider. The vehicles that satisfy the inputed criteria will appear in the displayed dataframe below.
   - Number of Cylinders Tab: This tab allows the user to select a single cylinder count using a single value dropdown. The vehicles that satisfy the inputed criteria will appear in the displayed dataframe below.
   - Horsepower Tab: This tab allows the user to select a minimum and maximum Horsepower value using a slider. The vehicles that satisfy the inputed criteria will appear in the displayed dataframe below.
+
+Language Used: Python
+
+Libraries Used: Streamlit, Pandas
