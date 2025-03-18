@@ -1,3 +1,4 @@
+
 # Tidy Data Project: Federal R&D Spending 
 
 ## Project Overview
@@ -33,9 +34,16 @@ The data was transformed to be tidy using the following steps:
 
 ## Visualizations
 
-### 1. Time Series Line Chart
+### 1. Time Series Spending Line Chart
 
-This chart displays the spending trends over time for each department.
+This chart displays the spending trends over time for each department with a different line and color for each department.
 
-![Time Series Line Chart](Spending_Line.png)  
+![Time Series Spending Line Chart](Spending_Line.png)  
+
+### 2. Spending Share Bar Chart
+
+This chart displays the share of spending for each department in the year selected by the user.
+
+![Spending Share Bar Chart](Spending_Share_Bar.png)
+
 
