@@ -22,7 +22,7 @@ To run the Jupyter Notebook (`Tidy_Data_Project.ipynb`) and reproduce the analys
 -   **Source:** The dataset "Federal R&D Budgets" (`fed_rd_year&gdp.csv`) was adapted from a [GitHub repository](https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-02-12).
 -   **Content:** It contains federal Research and Development (R&D) spending, broken down by department and year in wide format.
 
-## Data Cleaning and Tidy Process
+## Data Cleaning and Tidying Process
 
 The data was transformed to be tidy using the following steps:
 
@@ -35,18 +35,20 @@ The data was transformed to be tidy using the following steps:
 
 ### 1. Time Series Spending Line Chart
 
-This chart displays the spending trends over time for each department with a different line and color for each department.
+This chart illustrates the trends in federal R&D spending over time for each department from the dataset. Each department is represented by a distinct line and color, allowing for easy comparison across departments.
 
 ![Time Series Spending Line Chart](Spending_Line.png)  
 
 ### 2. Spending Share Bar Chart
 
-This chart displays the share of spending for each department in the year selected by the user.
+This bar chart provides a snapshot of the proportion of federal R&D spending by department for a specific year (2017 in this analysis). The chart represents each department’s share as a percentage of total spending, helping users quickly grasp how funding is allocated across departments.
 
 ![Spending Share Bar Chart](Spending_Share_Bar.png)
 
 ## Pivot Table
 
-This table displays the median department spending for each year in the dataset in the form of a pivot table.
+The pivot table summarizes the median department spending for each year in the dataset, providing a robust measure of central tendency in spending data. Unlike averages, the median is less sensitive to extreme values, offering a clearer picture of typical spending patterns.
+
+
 
 
