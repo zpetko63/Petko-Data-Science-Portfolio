@@ -46,4 +46,8 @@ This chart displays the share of spending for each department in the year select
 
 ![Spending Share Bar Chart](Spending_Share_Bar.png)
 
+## Pivot Table
+
+This table displays the median department spending for each year in the dataset in the form of a pivot table.
+
 
