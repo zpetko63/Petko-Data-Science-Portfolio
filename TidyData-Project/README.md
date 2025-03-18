@@ -16,11 +16,10 @@ To run the Jupyter Notebook (`Tidy_Data_Project.ipynb`) and reproduce the analys
 2.  **Install Dependencies**
     Ensure you have pandas and matplotlib Python libraries installed.
 3.  **Run the Jupyter Notebook**
-4.  **Execute Cells:**
 
 ## Dataset Description
 
--   **Source:** The dataset "Federal R&D Budgets" (`fed_rd_year&gdp.csv`) was adapted from a GitHub repository.
+-   **Source:** The dataset "Federal R&D Budgets" (`fed_rd_year&gdp.csv`) was adapted from a [GitHub repository](https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-02-12).
 -   **Content:** It contains federal Research and Development (R&D) spending as a percentage of GDP, broken down by department and year.
 -   **Preprocessing:** The initial data was in a wide format, with each year's spending as a separate column. The preprocessing involved renaming columns, melting the data to a long format, and converting the year column to numeric.
 
