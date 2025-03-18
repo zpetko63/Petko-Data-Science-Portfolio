@@ -2,9 +2,9 @@
 
 ## Project Overview
 This project aims to clean and make tidy data gathered on Federal R&D Spending. After making the data tidy, visualizations and a pivot table is created to provide a preliminary analysis of Federal R&D Spending. Tidy data fits these criteria:
-      1. Each variable forms a column.
-      2. Each observation forms a row.
-      3. Each type of observational unit forms a table.
+- 1. Each variable forms a column.
+- 2. Each observation forms a row.
+- 3. Each type of observational unit forms a table.
 
 This project contributes to my portfolio by showcasing my ability to clean, tidy, and visualize real-world data, enhancing my data analysis skills.
 
