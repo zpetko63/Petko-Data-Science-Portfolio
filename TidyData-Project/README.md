@@ -2,7 +2,7 @@
 # Tidy Data Project: Federal R&D Spending 
 
 ## Project Overview
-This project aims to clean and make tidy data gathered on Federal R&D Spending. After making the data tidy, visualizations and a pivot table is created to provide a preliminary analysis of Federal R&D Spending. Tidy data fits these criteria:
+This project aims to clean and make tidy data gathered on Federal R&D Spending. After making the data tidy, visualizations and a pivot table is created to provide a preliminary analysis of Federal R&D Spending. [Tidy data](https://vita.had.co.nz/papers/tidy-data.pdf) fits these criteria:
 - Each variable forms a column.
 - Each observation forms a row.
 - Each type of observational unit forms a table.
