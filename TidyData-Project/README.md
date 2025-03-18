@@ -20,15 +20,14 @@ To run the Jupyter Notebook (`Tidy_Data_Project.ipynb`) and reproduce the analys
 ## Dataset Description
 
 -   **Source:** The dataset "Federal R&D Budgets" (`fed_rd_year&gdp.csv`) was adapted from a [GitHub repository](https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-02-12).
--   **Content:** It contains federal Research and Development (R&D) spending as a percentage of GDP, broken down by department and year.
--   **Preprocessing:** The initial data was in a wide format, with each year's spending as a separate column. The preprocessing involved renaming columns, melting the data to a long format, and converting the year column to numeric.
+-   **Content:** It contains federal Research and Development (R&D) spending, broken down by department and year in wide format.
 
 ## Data Cleaning and Tidy Process
 
-The data was transformed to meet tidy data principles:
+The data was transformed to be tidy using the following steps:
 
-1.  **Loading Data:** The raw CSV file was loaded into a pandas DataFrame.
-2.  **Renaming Columns:** Column names were simplified to just the year.
+1.  **Load Data:** The raw CSV file was loaded into a pandas DataFrame.
+2.  **Rename Columns:** Column names were simplified to just the year instead of the given long name.
 3.  **Melting Data:** The DataFrame was melted to create `department`, `Year`, and `Spending` columns.
 4.  **Numeric Year:** The `Year` column was converted to a numeric data type.
 
@@ -36,17 +35,7 @@ The data was transformed to meet tidy data principles:
 
 ### 1. Time Series Line Chart
 
-This chart displays the spending trends over time for each department, allowing for easy comparison of spending patterns.
+This chart displays the spending trends over time for each department.
 
-![Time Series Line Chart](path/to/your/time_series_chart.png)  *(Replace with actual image path or remove)*
+![Time Series Line Chart](Spending_Line.png)  
 
-```python
-for dept in fed_data_clean['department'].unique():
-    dept_data = fed_data_clean[fed_data_clean['department'] == dept]
-    plt.plot(dept_data['Year'], dept_data['Spending'], label=dept)
-
-plt.title('Spending by Department')
-plt.xlabel('Year')
-plt.ylabel('Spending')
-plt.legend(fontsize='small')
-plt.show()
