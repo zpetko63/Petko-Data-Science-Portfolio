@@ -14,8 +14,7 @@ This project contributes to my data science portfolio by showcasing my ability t
 To run the Jupyter Notebook (`Tidy_Data_Project.ipynb`) and reproduce the analysis, follow these steps:
 
 1.  **Clone the Repository**
-2.  **Install Dependencies**
-    Ensure you have pandas and matplotlib Python libraries installed.
+2.  **Install Dependencies:** Ensure you have pandas and matplotlib Python libraries installed.
 3.  **Run the Jupyter Notebook**
 
 ## Dataset Description
