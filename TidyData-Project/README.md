@@ -2,37 +2,21 @@
 
 ## Project Overview
 This project aims to clean and make tidy data gathered on Federal R&D Spending. After making the data tidy, visualizations and a pivot table is created to provide a preliminary analysis of Federal R&D Spending. Tidy data fits these criteria:
-- 1. Each variable forms a column.
-- 2. Each observation forms a row.
-- 3. Each type of observational unit forms a table.
+- Each variable forms a column.
+- Each observation forms a row.
+- Each type of observational unit forms a table.
 
-This project contributes to my portfolio by showcasing my ability to clean, tidy, and visualize real-world data, enhancing my data analysis skills.
+This project contributes to my data science portfolio by showcasing my ability to clean, tidy, and visualize real-world data, and enhancing my data analysis skills.
 
 ## Instructions
 
 To run the Jupyter Notebook (`Tidy_Data_Project.ipynb`) and reproduce the analysis, follow these steps:
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone [Your Repository URL]
-    cd TidyData-Project
-    ```
-2.  **Install Dependencies:**
-    Ensure you have the required Python libraries installed. You can install them using pip:
-    ```bash
-    pip install pandas matplotlib
-    ```
-3.  **Run the Jupyter Notebook:**
-    Open the notebook using Jupyter Notebook or JupyterLab:
-    ```bash
-    jupyter notebook Tidy_Data_Project.ipynb
-    ```
-    or
-    ```bash
-    jupyter lab Tidy_Data_Project.ipynb
-    ```
+1.  **Clone the Repository**
+2.  **Install Dependencies**
+    Ensure you have pandas and matplotlib Python libraries installed.
+3.  **Run the Jupyter Notebook**
 4.  **Execute Cells:**
-    Run each cell in the notebook sequentially to see the data cleaning, transformation, and visualization steps.
 
 ## Dataset Description
 
