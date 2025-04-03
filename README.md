@@ -19,4 +19,6 @@ Feel free to explore, provide feedback, and check back for new projects as I upd
 
 
 ## Contents
-- Basic Streamlit App (Automobile Database): This streamlit app built in python lets users explore and filter the automobile database bsed on their desired criteria. The user has the ability to choose between MPG, Number of Cylinders, Horsepower, or just the unfiltered data set to narrow down results.
+- [**Basic Streamlit App (Automobile Database):**](https://github.com/zpetko63/Petko-Data-Science-Portfolio/tree/main/basic_streamlit_app) This streamlit app built in python lets users explore and filter the automobile database bsed on their desired criteria. The user has the ability to choose between MPG, Number of Cylinders, Horsepower, or just the unfiltered data set to narrow down results.
+  
+- [**TidyData-Project (Federal Departmental Spending):**](https://github.com/zpetko63/Petko-Data-Science-Portfolio/tree/main/TidyData-Project) In this python jupyter notebook, I cleaned and analyzed federal R&D spending data using pandas and matplotlib. I transformed the dataset into a tidy format and created visualizations to explore departmental spending trends. A pivot table summarizes median spending over the years. This project showcases my skills in data cleaning, analysis, and visualization.
