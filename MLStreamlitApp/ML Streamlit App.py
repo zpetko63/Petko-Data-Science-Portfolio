@@ -61,7 +61,7 @@ if df is not None:
         X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
 
         if select_model == "Logistic Regression":
-            max_iter = st.sidebar.slider('Maximum Iterations', 100, 500, 1)
+            max_iter = st.sidebar.slider('Maximum Iterations', min_value=100, max_value=500, value=200, step=10)
             model = LogisticRegression(max_iter=max_iter)
         elif select_model == "Decision Tree":
             max_depth = st.sidebar.slider('Max Depth', 1, 20, 5)
