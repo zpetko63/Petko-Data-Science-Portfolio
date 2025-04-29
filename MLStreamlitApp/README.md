@@ -20,7 +20,7 @@ The app provides evaluation metrics including accuracy, precision, recall, F1-sc
 - **Decision Tree Visualization**: If a Decision Tree is chosen, the app will visualize the structure of the tree.
 
 ## How to Use
-1. **Access App in Streamlit Cloud**: [Link to app in Streamlit Cloud] (https://petko-data-science-portfolio-bpybmuqcd3dcukxw9rnqg5.streamlit.app/)
+1. **Access App in Streamlit Cloud**: [Link to app in Streamlit Cloud](https://petko-data-science-portfolio-bpybmuqcd3dcukxw9rnqg5.streamlit.app/)
 1. **Choose a Dataset**: Select the Breast Cancer dataset or upload your own CSV file.
 2. **Select Features**: Choose the columns for the features (X) and the target (Y) in the dataset.
 3. **Choose a Model**: Select either Logistic Regression or Decision Tree.
