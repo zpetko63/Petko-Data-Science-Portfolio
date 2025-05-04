@@ -13,7 +13,7 @@ import pandas as pd
 
 
 #Import and Format Dataset
-auto = pd.read_csv('.\Data\Automobile_data.csv')
+auto = pd.read_csv('https://raw.githubusercontent.com/zpetko63/Petko-Data-Science-Portfolio/main/basic_streamlit_app/Data/Automobile_data.csv')
 auto = auto.loc[:,['name', 'mpg', 'cylinders', 'horsepower']]
 
 #App Structure
