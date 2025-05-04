@@ -154,7 +154,7 @@ st.write('---')
 #######################################################
 # 2 - Unsupervised ML Model Selection
 st.write('### 2. Select an Unsupervised Machine Learning Model to use')
-st.write('Select the **Unsupervised Machine Learning** model that you would like to' \
+st.write('Select the **Unsupervised Machine Learning** model that you would like to ' \
          'use for dimentionality reduction or clustering.')
 
 #   Radio Selection
