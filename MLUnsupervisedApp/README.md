@@ -75,27 +75,11 @@ The application generates several interactive visualizations using Plotly:
 * **K-Means Evaluation Plots:**
     * **Elbow Method Plot:** Shows the Within-Cluster Sum of Squares (WCSS) for different `k` values to help identify a potential "elbow" point.
     * **Silhouette Score Plot:** Shows the silhouette score for different `k` values, providing a measure of how well each data point fits within its assigned cluster compared to other clusters.
-    * *(Placeholder: `![KMeans Evaluation Plots](images/kmeans_evaluation.png)`)*
+
+![K-Means Visuals](K-Means_Visuals.png)
+
 * **Hierarchical Clustering Dendrogram:** A tree-like diagram illustrating the arrangement of clusters produced by hierarchical clustering.
-    * *(Placeholder: `![Hierarchical Clustering Dendrogram](images/dendrogram.png)`)*
-* **Clustering Results Table (Toggleable):** Displays the dataset with added columns for the PCA components (PC1, PC2) and the assigned cluster labels for K-Means or Hierarchical Clustering, viewable via a toggle switch.
 
-## References
-
-* **Insert Links Here:**
-    * Links to the official documentation for libraries used (e.g., Streamlit, pandas, scikit-learn, plotly, scipy).
-    * Links to any specific tutorials, articles, or guides that informed your approach to PCA, K-Means, Hierarchical Clustering, or their evaluation/visualization.
-    * Link to the original source of the NFL dataset (if publicly available online, beyond just the raw GitHub file link).
-
-## Visual Examples
-
-*(Include screenshots of your running application here to illustrate its features and the generated visualizations. You can add images by placing them in a folder (e.g., `images`) in your repository and linking them like this: `![Alt text describing the image](images/your_screenshot_name.png)`)*.
-
-* Screenshot showing the dataset selection and upload feature.
-* Screenshot showing the PCA visualization.
-* Screenshot showing the K-Means section with the scatter plot and evaluation plots.
-* Screenshot showing the Hierarchical Clustering section with the dendrogram and scatter plot.
+![Hierarchical Clustering Dendrogram](Hierarchical_Clustering_Dendrogram.png)
 
 ---
-
-**Project Author:** Zach Petko
