@@ -23,7 +23,7 @@ To run the Streamlit application (`automobile_app.py` - assuming this is the fil
 
     OR
 
-    **Run in Streamlit Cloud:** [Link to Deployed App](https://petko-data-science-portfolio-74dezpd6ygwclv3ny2ifsk.streamlit.app/)
+    **Run in Streamlit Cloud:** [Link to Deployed App](https://petko-data-science-portfolio-d36p3g3kwly2vmu5ptmk7x.streamlit.app/)
 
 ## Dataset Description
 
