@@ -28,11 +28,11 @@ To run the Streamlit application (`MLUnsupervisedApp.py`), follow these steps:
     ```
     OR
 
-    **Run in Streamlit Cloud:** (Link to Deployed App)[https://petko-data-science-portfolio-74dezpd6ygwclv3ny2ifsk.streamlit.app/]
+    **Run in Streamlit Cloud:** [Link to Deployed App](https://petko-data-science-portfolio-74dezpd6ygwclv3ny2ifsk.streamlit.app/)
 
 ## Dataset Description
 
-* **Default 2025 NFL Draft:** The primary default dataset, "BNB 2025 NFL Draft Database", is sourced from an Excel file from (BNB)[https://bnbfootball.com/database/]. It contains statistical data for various college football players eligible for the 2025 NFL Draft, broken down by position.
+* **Default 2025 NFL Draft:** The primary default dataset, "BNB 2025 NFL Draft Database", is sourced from an Excel file from [BNB](https://bnbfootball.com/database/). It contains statistical data for various college football players eligible for the 2025 NFL Draft, broken down by position.
 * **User Upload:** The app also supports user-uploaded datasets in `.csv` or `.xlsx` formats. Users are advised to provide clean, structured data with clear headers.
 
 ## Data Preprocessing Steps
