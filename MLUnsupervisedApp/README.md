@@ -70,16 +70,16 @@ The application generates several interactive visualizations using Plotly:
 
 * **2D PCA Projection:** A scatter plot showing data points in the reduced 2D PCA space. When clustering is applied, points are colored by their assigned cluster. Hovering over points in the NFL dataset shows player details.
 
-![2D PCA Plot](PCA_2D_Projection.png)
+![2D PCA Plot](Images/PCA_2D_Projection.png)
 
 * **K-Means Evaluation Plots:**
     * **Elbow Method Plot:** Shows the Within-Cluster Sum of Squares (WCSS) for different `k` values to help identify a potential "elbow" point.
     * **Silhouette Score Plot:** Shows the silhouette score for different `k` values, providing a measure of how well each data point fits within its assigned cluster compared to other clusters.
 
-![K-Means Visuals](K-Means_Visuals.png)
+![K-Means Visuals](Images/K-Means_Visuals.png)
 
 * **Hierarchical Clustering Dendrogram:** A tree-like diagram illustrating the arrangement of clusters produced by hierarchical clustering.
 
-![Hierarchical Clustering Dendrogram](Hierarchical_Clustering_Dendrogram.png)
+![Hierarchical Clustering Dendrogram](Images/Hierarchical_Clustering_Dendrogram.png)
 
 ---
