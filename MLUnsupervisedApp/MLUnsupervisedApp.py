@@ -96,7 +96,7 @@ column_dict = {
     }
 
 if df_selection == '2025 NFL Draft Dataset':
-    fb_df = pd.read_excel('BNB Football 2025 NFL Draft Database - Public.xlsx',sheet_name='QB') #Load Draft Dataset
+    fb_df = pd.read_excel('.\BNB Football 2025 NFL Draft Database - Public.xlsx',sheet_name='QB') #Load Draft Dataset
     fb_df.columns = fb_df.columns.map(str)
 
     #   Position Group Selection
