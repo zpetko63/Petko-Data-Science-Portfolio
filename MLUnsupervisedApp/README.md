@@ -69,7 +69,7 @@ The app implements PCA and two clustering algorithms:
 The application generates several interactive visualizations using Plotly:
 
 * **2D PCA Projection:** A scatter plot showing data points in the reduced 2D PCA space. When clustering is applied, points are colored by their assigned cluster. Hovering over points in the NFL dataset shows player details.
-    * *(Consider adding a placeholder like `![2D PCA Plot](images/pca_plot.png)` here and in subsequent sections if you plan to add screenshots)*.
+  ![2D PCA Plot](PCA 2d Projection.png)` 
 * **K-Means Evaluation Plots:**
     * **Elbow Method Plot:** Shows the Within-Cluster Sum of Squares (WCSS) for different `k` values to help identify a potential "elbow" point.
     * **Silhouette Score Plot:** Shows the silhouette score for different `k` values, providing a measure of how well each data point fits within its assigned cluster compared to other clusters.
