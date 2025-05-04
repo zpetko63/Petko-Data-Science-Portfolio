@@ -42,16 +42,10 @@ The app implements two supervised machine learning models for binary classificat
     * A linear model for binary classification.
     * **Hyperparameter (`max_iter` - Maximum Iterations):** This is selected interactively allowing tuning of the maximum number of iterations for the solver to converge.
 
-![ROC Curve](Images/ROC_Curve.png)
-      
 2.  **Decision Tree:**
     * **Hyperparameters (`max_depth`, `min_samples_split`):** These are selected interactively by the user via **Streamlit sliders**, allowing tuning of the maximum depth of the tree (1 to 20) and the minimum number of samples required to split an internal node (2 to 20).
-  
-![Decision Tree](Images/Decision_Tree.png)
 
 After selecting the model and tuning hyperparameters, the model is trained on the training data (`X_train`, `Y_train`) and used to make predictions (`Y_pred`) and predict probabilities (`Y_prob`) on the test data (`X_test`).
-
-## Visualizations and Outputs
 
 The application provides several key outputs and visualizations for model evaluation:
 
@@ -63,21 +57,11 @@ The application provides several key outputs and visualizations for model evalua
     * F1-Score (weighted)
     * Confusion Matrix
 * **ROC Curve:** Plots the Receiver Operating Characteristic (ROC) curve, which illustrates the model's performance at different classification thresholds, along with the Area Under the Curve (AUC) score.
-    * *(Placeholder: `![ROC Curve](images/roc_curve.png)`)*
+  
+![ROC Curve](Images/ROC_Curve.png)
+      
 * **Decision Tree Visualization:** If the Decision Tree model is selected, the app displays a plot of the trained decision tree structure, showing how the model makes decisions based on the selected features.
-    * *(Placeholder: `![Decision Tree Plot](images/decision_tree.png)`)*
+  
+![Decision Tree](Images/Decision_Tree.png)
 
-## Visual Examples
-
-*(Include screenshots of your running application here to illustrate its features and the generated plots. You can add images by placing them in a folder (e.g., `images`) in your repository and linking them like this: `![Alt text describing the image](images/your_screenshot_name.png)`)*.
-
-* Screenshot showing the sidebar controls and dataset/feature selection.
-* Screenshot showing the selected dataset display.
-* Screenshot showing the evaluation metrics section.
-* Screenshot showing the ROC Curve.
-* Screenshot showing the Decision Tree visualization.
-
----
-
-**Project Author:** Zach Petko
 
