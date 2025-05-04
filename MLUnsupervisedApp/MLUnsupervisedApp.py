@@ -86,21 +86,27 @@ if df_selection == '2025 NFL Draft Dataset':
     
     ##  OL Position Selection 
     if position_selection == 'Offensive Line (OT/G/C)':
-        temp1 = pd.read_excel('BNB_2025_NFL_Draft.xlsx',sheet_name='OT')[['NAME','COLLEGE','C-POS','AGE','HT','WT','GMS','YRS','SACK','HIT','HURRY','LOSS','PEN']]
-        temp2 = pd.read_excel('BNB_2025_NFL_Draft.xlsx',sheet_name='G')[['NAME','COLLEGE','C-POS','AGE','HT','WT','GMS','YRS','SACK','HIT','HURRY','LOSS','PEN']]
-        temp3 = pd.read_excel('BNB_2025_NFL_Draft.xlsx',sheet_name='C')[['NAME','COLLEGE','C-POS','AGE','HT','WT','GMS','YRS','SACK','HIT','HURRY','LOSS','PEN']]
+        temp1 = pd.read_excel('https://raw.githubusercontent.com/zpetko63/Petko-Data-Science-Portfolio/main/MLUnsupervisedApp/BNB_2025_NFL_Draft.xlsx'
+,sheet_name='OT')[['NAME','COLLEGE','C-POS','AGE','HT','WT','GMS','YRS','SACK','HIT','HURRY','LOSS','PEN']]
+        temp2 = pd.read_excel('https://raw.githubusercontent.com/zpetko63/Petko-Data-Science-Portfolio/main/MLUnsupervisedApp/BNB_2025_NFL_Draft.xlsx'
+,sheet_name='G')[['NAME','COLLEGE','C-POS','AGE','HT','WT','GMS','YRS','SACK','HIT','HURRY','LOSS','PEN']]
+        temp3 = pd.read_excel('https://raw.githubusercontent.com/zpetko63/Petko-Data-Science-Portfolio/main/MLUnsupervisedApp/BNB_2025_NFL_Draft.xlsx'
+,sheet_name='C')[['NAME','COLLEGE','C-POS','AGE','HT','WT','GMS','YRS','SACK','HIT','HURRY','LOSS','PEN']]
         fb_df = pd.concat([temp1,temp2,temp3],ignore_index=True)
         fb_df = fb_df.rename(columns={'C-POS':'POS'})
 
     ##  DL/EDGE Position Selection
     elif position_selection == 'Defensive Tackle / Edge Rusher':
-        temp1 = pd.read_excel('BNB_2025_NFL_Draft.xlsx',sheet_name='DT')[['NAME','COLLEGE','AGE','HT','WT','POS','GMS','TCK','TFL','SCK','PD','FF','PRES%','MISS%']]
-        temp2 = pd.read_excel('BNB_2025_NFL_Draft.xlsx',sheet_name='EDGE')[['NAME','COLLEGE','AGE','HT','WT','POS','GMS','TCK','TFL','SCK','PD','FF','PRES%','MISS%']]
+        temp1 = pd.read_excel('https://raw.githubusercontent.com/zpetko63/Petko-Data-Science-Portfolio/main/MLUnsupervisedApp/BNB_2025_NFL_Draft.xlsx'
+,sheet_name='DT')[['NAME','COLLEGE','AGE','HT','WT','POS','GMS','TCK','TFL','SCK','PD','FF','PRES%','MISS%']]
+        temp2 = pd.read_excel('https://raw.githubusercontent.com/zpetko63/Petko-Data-Science-Portfolio/main/MLUnsupervisedApp/BNB_2025_NFL_Draft.xlsx'
+,sheet_name='EDGE')[['NAME','COLLEGE','AGE','HT','WT','POS','GMS','TCK','TFL','SCK','PD','FF','PRES%','MISS%']]
         fb_df = pd.concat([temp1,temp2],ignore_index=True)
 
     ##  All Other Positions
     else:
-        fb_df = pd.read_excel('BNB_2025_NFL_Draft.xlsx',sheet_name=position_dict[position_selection]).iloc[:,3:column_dict[position_selection]]
+        fb_df = pd.read_excel('https://raw.githubusercontent.com/zpetko63/Petko-Data-Science-Portfolio/main/MLUnsupervisedApp/BNB_2025_NFL_Draft.xlsx'
+,sheet_name=position_dict[position_selection]).iloc[:,3:column_dict[position_selection]]
 
     #   Position DF Cleaning
 
