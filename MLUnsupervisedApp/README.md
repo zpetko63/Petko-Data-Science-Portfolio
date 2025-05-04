@@ -70,7 +70,7 @@ The application generates several interactive visualizations using Plotly:
 
 * **2D PCA Projection:** A scatter plot showing data points in the reduced 2D PCA space. When clustering is applied, points are colored by their assigned cluster. Hovering over points in the NFL dataset shows player details.
 
-![2D PCA Plot](`PCA 2d Projection.png`)
+![2D PCA Plot](PCA_2D_Projection.png)
 
 * **K-Means Evaluation Plots:**
     * **Elbow Method Plot:** Shows the Within-Cluster Sum of Squares (WCSS) for different `k` values to help identify a potential "elbow" point.
