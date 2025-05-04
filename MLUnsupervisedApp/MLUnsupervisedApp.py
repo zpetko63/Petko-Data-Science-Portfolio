@@ -3,21 +3,6 @@
 ### Zach Petko
 #######################################################
 
-# Description:
-# This Streamlit web application serves as the final project for an Unsupervised 
-# Machine Learning course. The tool enables users to explore and analyze structured 
-# datasets—either a built-in 2025 NFL Draft dataset or user-uploaded data—using 
-# unsupervised learning techniques. The app provides an interactive interface to 
-# perform dimensionality reduction via Principal Component Analysis (PCA), as well 
-# as clustering through K-Means and Hierarchical Clustering. Users can select 
-# specific features, visualize clusters in 2D PCA space, and evaluate clustering 
-# performance using metrics like the silhouette score. The project showcases the 
-# power of unsupervised learning in identifying structure and patterns within complex 
-# datasets, with a particular focus on interpretability and interactive data 
-# exploration.
-
-
-
 # Packages
 import streamlit as st
 import pandas as pd
@@ -52,7 +37,8 @@ st.write('This Streamlit web application serves as the final project for a ' \
 'project showcases the power of unsupervised learning in identifying structure and ' \
 'patterns within complex datasets, with a particular focus on interpretability and ' \
 'interactive data exploration. Follow the directions below to use the features in' \
-'this unsupervised machine learning app.')
+'this unsupervised machine learning app. Be patient when using the app as it may take ' \
+'a moment to load.')
 st.write('---')
 
 #######################################################
@@ -96,29 +82,26 @@ column_dict = {
     }
 
 if df_selection == '2025 NFL Draft Dataset':
-    fb_df = pd.read_excel('.\BNB Football 2025 NFL Draft Database - Public.xlsx',sheet_name='QB') #Load Draft Dataset
-    fb_df.columns = fb_df.columns.map(str)
-
     #   Position Group Selection
     position_selection = st.selectbox('Select Position Group', position_dict)
     
     ##  OL Position Selection 
     if position_selection == 'Offensive Line (OT/G/C)':
-        temp1 = pd.read_excel('BNB Football 2025 NFL Draft Database - Public.xlsx',sheet_name='OT')[['NAME','COLLEGE','C-POS','AGE','HT','WT','GMS','YRS','SACK','HIT','HURRY','LOSS','PEN']]
-        temp2 = pd.read_excel('BNB Football 2025 NFL Draft Database - Public.xlsx',sheet_name='G')[['NAME','COLLEGE','C-POS','AGE','HT','WT','GMS','YRS','SACK','HIT','HURRY','LOSS','PEN']]
-        temp3 = pd.read_excel('BNB Football 2025 NFL Draft Database - Public.xlsx',sheet_name='C')[['NAME','COLLEGE','C-POS','AGE','HT','WT','GMS','YRS','SACK','HIT','HURRY','LOSS','PEN']]
+        temp1 = pd.read_excel('BNB_2025_NFL_Draft.xlsx',sheet_name='OT')[['NAME','COLLEGE','C-POS','AGE','HT','WT','GMS','YRS','SACK','HIT','HURRY','LOSS','PEN']]
+        temp2 = pd.read_excel('BNB_2025_NFL_Draft.xlsx',sheet_name='G')[['NAME','COLLEGE','C-POS','AGE','HT','WT','GMS','YRS','SACK','HIT','HURRY','LOSS','PEN']]
+        temp3 = pd.read_excel('BNB_2025_NFL_Draft.xlsx',sheet_name='C')[['NAME','COLLEGE','C-POS','AGE','HT','WT','GMS','YRS','SACK','HIT','HURRY','LOSS','PEN']]
         fb_df = pd.concat([temp1,temp2,temp3],ignore_index=True)
         fb_df = fb_df.rename(columns={'C-POS':'POS'})
 
     ##  DL/EDGE Position Selection
     elif position_selection == 'Defensive Tackle / Edge Rusher':
-        temp1 = pd.read_excel('BNB Football 2025 NFL Draft Database - Public.xlsx',sheet_name='DT')[['NAME','COLLEGE','AGE','HT','WT','POS','GMS','TCK','TFL','SCK','PD','FF','PRES%','MISS%']]
-        temp2 = pd.read_excel('BNB Football 2025 NFL Draft Database - Public.xlsx',sheet_name='EDGE')[['NAME','COLLEGE','AGE','HT','WT','POS','GMS','TCK','TFL','SCK','PD','FF','PRES%','MISS%']]
+        temp1 = pd.read_excel('BNB_2025_NFL_Draft.xlsx',sheet_name='DT')[['NAME','COLLEGE','AGE','HT','WT','POS','GMS','TCK','TFL','SCK','PD','FF','PRES%','MISS%']]
+        temp2 = pd.read_excel('BNB_2025_NFL_Draft.xlsx',sheet_name='EDGE')[['NAME','COLLEGE','AGE','HT','WT','POS','GMS','TCK','TFL','SCK','PD','FF','PRES%','MISS%']]
         fb_df = pd.concat([temp1,temp2],ignore_index=True)
 
     ##  All Other Positions
     else:
-        fb_df = pd.read_excel('BNB Football 2025 NFL Draft Database - Public.xlsx',sheet_name=position_dict[position_selection]).iloc[:,3:column_dict[position_selection]]
+        fb_df = pd.read_excel('BNB_2025_NFL_Draft.xlsx',sheet_name=position_dict[position_selection]).iloc[:,3:column_dict[position_selection]]
 
     #   Position DF Cleaning
 
