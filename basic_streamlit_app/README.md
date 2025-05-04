@@ -47,8 +47,8 @@ This application provides an interactive interface for exploring the automobile 
 The main output of this application is the interactive display of the automobile dataset, which is filtered in real-time based on the user's selections.
 
 * **Filtered Dataframe:** A table showing the subset of vehicles that meet the criteria selected in the filter tabs.
+
+![Auto Output](Images/Automobile_Filter_Output.png)
+
 * **Unfiltered Dataframe (Optional):** The complete dataset can be displayed via a toggle for comparison.
 
-
-
-**Project Author:** Zach Petko *(Assuming Zach Petko is the author based on previous context)*
